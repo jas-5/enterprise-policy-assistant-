@@ -10,13 +10,15 @@
 ## 运行
 
 ```bash
-python ingest.py
+python -X utf8 ingest.py
 ```
 
 输出示例：
 
 ```text
-[travel-policy-01] 报销时限 | 出差结束后 7 天内提交报销申请。 | 来源：travel-policy.md
+[travel-policy-01] 报销时限
+出差结束后 7 天内提交报销申请。
+来源：travel-policy.md
 ```
 
 ## 目录
